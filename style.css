@@ -2,20 +2,39 @@ body{
 	background-color: white;
 }
 
-.nav_img{
+
+	.sec1{
+
+		margin-left: 68em;
+		margin-top: 2em;
+	}
+
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	width: 20%
+	margin-left: auto;
+}
+
+nav a{
+
+	text-decoration: none;
+	color: black;
+	font-size:15px;
+	padding-left: 5px;		
+}
+
+nav img{
 width: 2em;
-margin-top:  1em;
-padding-left: 20px;
+height: 20px;
 }
 
-.sec1{
-/*	float: right;*/
 
-	margin-top: 1em;
-	margin-left: 68em;
-}
 
-.ram{
+
+.ram a{
+	text-decoration: none;
 
 }
 
@@ -26,14 +45,7 @@ padding-left: 20px;
 .lang a{
 	text-decoration: none;
 }
-nav a{
-	text-decoration: none;
-	font-size:15px;
-	padding-left: 5px;		
-	padding-top: -10px;
 
-
-}
 
 .sec2{
 	text-align: center;
@@ -95,10 +107,10 @@ footer{/*
 
 	text-decoration: none;
 	padding-left: 2em;
-	color: black;
+	color: black;	
 }
 
 .Carbon{
-	margin-left: 15em;
-	margin-right: 15em;
+	margin-left: 13em;
+	margin-right: 13em;
 }
